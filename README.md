@@ -19,12 +19,12 @@
         * Hidden Layer 1: 20 nodes, ReLU activation
         * Hidden Layer 2: 40 nodes, ReLU activation
         * Hidden Layer 2: 15 nodes, ReLU activation
-        * OutputLayer: 6 nodes, Softmax activation
+        * Output Layer: 6 nodes, Softmax activation
     - Adam optimization with categorical cross entropy as the loss function and accuracy as the evaluation metric
     - Trained for 50 epochs
 
 ## Conclusion
-From the confusion matrix and the value counts of the target label in the original data, we can see that the model has predicted well for the labels which had a dominant representation in the data. Hence the model performance can be improved by balancing the data inorder to have a balanced distribution across all the target labels. This can be achieved by upsampling or downsampling the data.
+From the confusion matrix and the value counts of the target label in the original data, it was inferred that the model has predicted well for the labels which had a dominant representation in the data. Hence the model performance can be improved by balancing the data inorder to have a balanced distribution across all the target labels. This can be achieved by upsampling or downsampling the data.
 
 
 ## Data Used for the Implementation
